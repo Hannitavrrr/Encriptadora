@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="textareas">
+                <div class="textarea-container">
+                    <label for="inputText">Encriptar/desencriptar:</label>
+                    <textarea id="inputText" rows="10" placeholder="Escribe el texto aquí..."></textarea>
+                </div>
+                <div class="textarea-container">
+                    <label for="outputText">Resultado:</label>
+                    <textarea id="outputText" rows="10" readonly></textarea>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado por Hanna Vega Rodriguez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
